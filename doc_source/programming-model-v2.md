@@ -4,7 +4,7 @@ You write code for your Lambda function in one of the languages AWS Lambda suppo
 + **Handler** – Handler is the function AWS Lambda calls to start execution of your Lambda function\. You identify the handler when you create your Lambda function\. When a Lambda function is invoked, AWS Lambda starts executing your code by calling the handler function\. AWS Lambda passes any event data to this handler as the first parameter\. Your handler should process the incoming event data and may invoke any other functions/methods in your code\. 
 
    
-+ **The context object and how it interacts with Lambda at runtime** – AWS Lambda also passes a  context  object to the handler function, as the second parameter\. Via this context object your code can interact with AWS Lambda\. For example, your code can find the execution time remaining before AWS Lambda terminates your Lambda function\. 
++ **The context object and how it interacts with Lambda at runtime** – AWS Lambda also passes a context object to the handler function, as the second parameter\. Via this context object your code can interact with AWS Lambda\. For example, your code can find the execution time remaining before AWS Lambda terminates your Lambda function\. 
 
    
 
